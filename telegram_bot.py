@@ -303,10 +303,10 @@ async def _handle_message(msg: dict):
         await _send(chat_id, "⛔ شما اجازه‌ی دسترسی به این ربات رو ندارید.")
         return
 
-if text in ("/start", "/menu"):
-    _pending.pop(chat_id, None)
-    await _send(chat_id, "👋 به ربات مدیریت Purple-Panel خوش اومدی.\nاز دکمه‌های زیر برای مدیریت کانفیگ‌ها استفاده کن:", _main_menu_kb())
-    return
+    if text in ("/start", "/menu"):
+        _pending.pop(chat_id, None)
+        await _send(chat_id, "👋 به ربات مدیریت X4G خوش اومدی.\nاز دکمه‌های زیر برای مدیریت کانفیگ‌ها استفاده کن:", _main_menu_kb())
+        return
 
     if text == "/cancel":
         _pending.pop(chat_id, None)
