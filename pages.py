@@ -77,11 +77,21 @@ input:focus+.ic{color:var(--accent)}
       </div>
       <button class="btn" type="submit" id="btn"><i class="ti ti-login-2"></i> ورود به داشبورد</button>
     </form>
-    <div class="footer">
-      <span>ساخته شده با ❤️ توسط <a href="https://github.com/x4gking" target="_blank">@x4gking</a></span>
-      <span class="credit">کاستوم‌سازی: <a href="https://t.me/AghaBanafshi" target="_blank">@AghaBanafshi</a></span>
-      <span>پشتیبانی <a href="https://t.me/X4GHUB" target="_blank"><i class="ti ti-brand-telegram"></i>@X4GHUB</a></span>
-    </div>
+<div class="footer">
+  <div style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:8px 0">
+    <span style="font-size:13px;color:var(--t1)">
+      🟣 <strong>Purple-Panel</strong> — ساخته شده با ❤️ توسط 
+      <a href="https://github.com/x4gking" target="_blank" style="color:var(--accent);font-weight:700">@x4gking</a>
+    </span>
+    <span style="font-size:14px;color:#A78BFA;font-weight:700;background:rgba(139,92,246,0.15);padding:6px 18px;border-radius:20px;border:1px solid rgba(139,92,246,0.3)">
+      ✨ کاستوم‌سازی: <a href="https://t.me/aghabanafshi" target="_blank" style="color:#C4B5FD;text-decoration:none">@aghabanafshi</a>
+    </span>
+    <span style="font-size:13px;color:var(--t2);font-weight:600">
+      📱 پشتیبانی مستقیم: <a href="https://t.me/aghabanafshiipvbot" target="_blank" style="color:var(--accent2)">@aghabanafshiipvbot</a>
+    </span>
+    <span style="font-size:11px;color:var(--t3)">
+      <i class="ti ti-brand-telegram"></i> کانال: <a href="https://t.me/X4GHUB" target="_blank" style="color:var(--accent2)">@X4GHUB</a>
+    </span>
   </div>
 </div>
 <script>
@@ -797,15 +807,16 @@ a{color:inherit;text-decoration:none}
       <div id="lsummary">—</div>
     </div>
   </div>
-  <div class="dash-footer">
+<div class="dash-footer">
     <span class="df-text">Purple-Panel v1.0 · Railway</span>
-    <div style="display:flex;gap:8px;font-size:9px;color:var(--t3);align-items:center;flex-wrap:wrap">
-      <span>ساخته شده با ❤️ توسط <a href="https://github.com/x4gking" target="_blank" style="color:var(--accent)">@x4gking</a></span>
-      <span>|</span>
-      <span>کاستوم‌سازی: <a href="https://t.me/AghaBanafshi" target="_blank" style="color:var(--accent2)">@AghaBanafshi</a></span>
+    <div style="display:flex;gap:8px;font-size:11px;color:var(--t2);align-items:center;flex-wrap:wrap">
+      <span>🔥 ساخته شده با ❤️ توسط <a href="https://github.com/x4gking" target="_blank" style="color:var(--accent);font-weight:700">@x4gking</a></span>
+      <span style="color:var(--t3)">|</span>
+      <span>✨ کاستوم‌سازی: <a href="https://t.me/aghabanafshi" target="_blank" style="color:#A78BFA;font-weight:700">@aghabanafshi</a></span>
+      <span style="color:var(--t3)">|</span>
+      <span>📱 پشتیبانی: <a href="https://t.me/aghabanafshiipvbot" target="_blank" style="color:var(--accent2);font-weight:700">@aghabanafshiipvbot</a></span>
     </div>
     <a class="df-link" href="https://t.me/X4GHUB" target="_blank"><i class="ti ti-brand-telegram"></i> t.me/X4GHUB</a>
-    
   </div>
 </section>
 <section class="pg" id="pg-links">
