@@ -299,9 +299,9 @@ async def _handle_message(msg: dict):
     text = (msg.get("text") or "").strip()
     if chat_id is None:
         return
-    if not _is_admin(chat_id):
-        await _send(chat_id, "⛔ شما اجازه‌ی دسترسی به این ربات رو ندارید.")
-        return
+  #  if not _is_admin(chat_id):
+  #      await _send(chat_id, "⛔ شما اجازه‌ی دسترسی به این ربات رو ندارید.")
+  #     return
 
     if text in ("/start", "/menu"):
         _pending.pop(chat_id, None)
@@ -399,10 +399,10 @@ async def _handle_callback(cb: dict):
     data = cb.get("data", "")
     cb_id = cb.get("id")
 
-    if chat_id is None or not _is_admin(chat_id):
-        await _answer_cb(cb_id, "⛔ دسترسی نداری")
-        return
-    await _answer_cb(cb_id)
+  #  if chat_id is None or not _is_admin(chat_id):
+  #      await _answer_cb(cb_id, "⛔ دسترسی نداری")
+  #      return
+  # await _answer_cb(cb_id)
 
     if data == "menu":
         _pending.pop(chat_id, None)
