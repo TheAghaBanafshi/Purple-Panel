@@ -400,13 +400,13 @@ async def _handle_callback(cb: dict):
     cb_id = cb.get("id")
 
     if chat_id is None or not _is_admin(chat_id):
-        await _answer_cb(cb_id, "⛔ دسترسی نداری")
+        await _answer_cb(cb_id, "⛔ شما دسترسی به پنل ندارید یا آیدی عددی را وارد نکردید")
         return
     await _answer_cb(cb_id)
 
     if data == "menu":
         _pending.pop(chat_id, None)
-        await _edit(chat_id, message_id, "منوی مدیریت X4G:", _main_menu_kb())
+        await _edit(chat_id, message_id, "منوی مدیریت PurplePanel:", _main_menu_kb())
         return
 
     if data.startswith("list:"):
