@@ -19,7 +19,7 @@ import httpx
 import logging
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("X4G")
+logger = logging.getLogger("PurplePanel")
 
 IRAN_TZ = ZoneInfo("Asia/Tehran")
 
@@ -160,7 +160,7 @@ SESSION_TTL = 60 * 60 * 24 * 365
 def hash_password(pw: str) -> str:
     return hashlib.sha256(f"{pw}{CONFIG['secret']}".encode()).hexdigest()
 
-AUTH = {"password_hash": hash_password(os.environ.get("ADMIN_PASSWORD", "X4GKING"))}
+AUTH = {"password_hash": hash_password(os.environ.get("ADMIN_PASSWORD", "PurplePanel"))}
 SESSIONS: dict = {}
 SESSIONS_LOCK = asyncio.Lock()
 
@@ -290,7 +290,7 @@ def vless_link_for_link(link: dict, uid: str, host: str) -> str:
     proto = link.get("protocol", DEFAULT_PROTOCOL)
     return generate_vless_link(
         uid, host,
-        remark=f"X4G-{link.get('label','')}",
+        remark=f"PurplePanel-{link.get('label','')}",
         protocol=proto,
         fingerprint=link.get("fingerprint"),
         alpn=link.get("alpn"),
@@ -383,7 +383,7 @@ def client_ip(request: Request) -> str:
 # ── Basic endpoints ───────────────────────────────────────────────────────────
 @app.get("/")
 async def root():
-    return {"service": "X4G", "version": "9.5", "status": "active", "channel": "https://t.me/X4GHUB"}
+    return {"service": "PurplePanel", "version": "9.8", "status": "active", "channel": "https://t.me/aghabanafshi"}
 
 @app.get("/health")
 async def health():
