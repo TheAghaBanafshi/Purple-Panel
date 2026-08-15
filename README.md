@@ -23,10 +23,12 @@ https://purple-panel-production-a45r.up.railway.app/
 و آخر لینک یک /login اضافه کنین مثال
 https://purple-panel-production-a45r.up.railway.app/login
 و رمز پیشفرض رو نوشته سپس رمز پیشفرض رو وارد کنید و تبریک شما الان یک پنل شخصی ساخت کانفیگ دارید (توجه اول باید online شه)
-
+## Saves All Settings
 
 اگر میخواید بعد آپدیت های پنل کانفیگاتون سیو بمونه و کار کنه اینکارو انجام بدید
 روی پروژه در railway به این شکل هست
 ![Purple-Panel](https://github.com/donotdothis12/Purple-Panel-testing/blob/main/imageeeee7743.png?raw=true)
 کلیک راست کنید سپس روی attach volume کلیک کنید
 و در کادر بالا /data رو بنویسید و روی 
+enter کلیک کنید
+و صبر کنید تا دیپلوی تموم شه
