@@ -1,5 +1,5 @@
 # pages.py - Purple-Panel v1.0
-# Customized by @AghaBanafshi | Original: github.com/x4gking
+# by @AghaBanafshi
 
 LOGIN_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
