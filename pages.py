@@ -81,7 +81,7 @@ input:focus+.ic{color:var(--accent)}
   <div style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:8px 0">
     <span style="font-size:13px;color:var(--t1)">
       🟣 <strong>Purple-Panel</strong> — ساخته شده با ❤️ توسط 
-      <a href="https://github.com/x4gking" target="_blank" style="color:var(--accent);font-weight:700">@x4gking</a>
+      <a href="https://github.com/arvin341az-glitch" target="_blank" style="color:var(--accent);font-weight:700">@arvin341az-glitch</a>
     </span>
     <span style="font-size:14px;color:#A78BFA;font-weight:700;background:rgba(139,92,246,0.15);padding:6px 18px;border-radius:20px;border:1px solid rgba(139,92,246,0.3)">
       ✨ کاستوم‌سازی: <a href="https://t.me/aghabanafshi" target="_blank" style="color:#C4B5FD;text-decoration:none">@aghabanafshi</a>
@@ -810,7 +810,7 @@ a{color:inherit;text-decoration:none}
 <div class="dash-footer">
     <span class="df-text">Purple-Panel v1.0 · Railway</span>
     <div style="display:flex;gap:8px;font-size:11px;color:var(--t2);align-items:center;flex-wrap:wrap">
-      <span>🔥 ساخته شده با ❤️ توسط <a href="https://github.com/x4gking" target="_blank" style="color:var(--accent);font-weight:700">@x4gking</a></span>
+      <span>🔥 ساخته شده با ❤️ توسط <a href="https://github.com/arvin341az-glitch" target="_blank" style="color:var(--accent);font-weight:700">@arvin341az-glitch</a></span>
       <span style="color:var(--t3)">|</span>
       <span>✨ کاستوم‌سازی: <a href="https://t.me/aghabanafshi" target="_blank" style="color:#A78BFA;font-weight:700">@aghabanafshi</a></span>
       <span style="color:var(--t3)">|</span>
@@ -1212,9 +1212,9 @@ a{color:inherit;text-decoration:none}
         <div class="srv-tile-icon"><i class="ti ti-speakerphone"></i></div>
         <div class="srv-tile-text"><div class="srv-tile-label">کانال تلگرام</div><div class="srv-tile-val">t.me/X4GHUB</div></div>
       </a>
-      <a class="srv-tile" href="https://github.com/x4gKing" target="_blank" style="text-decoration:none;cursor:pointer">
+      <a class="srv-tile" href="https://github.com/arvin341az-glitch" target="_blank" style="text-decoration:none;cursor:pointer">
         <div class="srv-tile-icon"><i class="ti ti-brand-github"></i></div>
-        <div class="srv-tile-text"><div class="srv-tile-label">گیت‌هاب</div><div class="srv-tile-val">github.com/x4gKing</div></div>
+        <div class="srv-tile-text"><div class="srv-tile-label">گیت‌هاب</div><div class="srv-tile-val">github.com/arvin341az-glitch</div></div>
       </a>
     </div>
   </div>
@@ -2079,7 +2079,7 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
     <div class="empty-state"><i class="ti ti-loader-2" style="animation:spin 1s linear infinite"></i>در حال بارگذاری...</div>
   </div>
   <div class="footer">
-    <span>ساخته شده با ❤️ توسط <a href="https://github.com/x4gking" target="_blank">@x4gking</a></span>
+    <span>ساخته شده با ❤️ توسط <a href="https://github.com/arvin341az-glitch" target="_blank">@arvin341az-glitch</a></span>
     <div class="credit">کاستوم‌سازی: <a href="https://t.me/AghaBanafshi" target="_blank">@AghaBanafshi</a></div>
     <span>پشتیبانی: <a href="https://t.me/X4GHUB" target="_blank">@X4GHUB</a> · Purple-Panel v1.0</span>
   </div>
